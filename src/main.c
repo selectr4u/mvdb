@@ -11,7 +11,6 @@ int main() {
 
   printf("%f FIRST OF VE1\n", ve1[0]);
 
-  /* issue in new_vec :( */
   vdb_vector *vec1 = vdb_new_vec(ve1, 3);
   vdb_vector *vec2 = vdb_new_vec(ve2, 3);
   vdb_vector *vec3 = vdb_new_vec(ve3, 3);
