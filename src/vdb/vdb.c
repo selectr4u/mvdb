@@ -214,7 +214,6 @@ vdb_top_n_results vdb_top_n(vdb_instance *vdb,
     return results;
   }
 
-  /* [TODO!!!!!!!] */
   /* first calculate ALL comparisons */
   vdb_comparison_result calculated_vecs[vdb->size];
 
